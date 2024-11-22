@@ -7,16 +7,16 @@
         "laravel"
     ],
     "license": "MIT",
-    "require": {
-        "php": "^7.2.5",
-        "darryldecode/cart": "^4.1",
-        "fideloper/proxy": "^4.2",
-        "fruitcake/laravel-cors": "^2.0",
-        "guzzlehttp/guzzle": "^6.3",
-        "intervention/image": "^2.5",
-        "laravel/framework": "^7.24",
-        "laravel/tinker": "^2.0"
-    },
+"require": {
+    "php": "*",
+    "darryldecode/cart": "^4.1",
+    "fideloper/proxy": "^4.2",
+    "fruitcake/laravel-cors": "^2.0",
+    "guzzlehttp/guzzle": "^6.3",
+    "intervention/image": "^2.5",
+    "laravel/framework": "^8.0",
+    "laravel/tinker": "^2.0"
+},
     "require-dev": {
         "facade/ignition": "^2.0",
         "fzaninotto/faker": "^1.9.1",
@@ -39,7 +39,7 @@
             "App\\": "app/"
         },
         "classmap": [
-            "database/seeds",
+            "database/seeders",
             "database/factories"
         ]
     },
